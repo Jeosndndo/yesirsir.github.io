@@ -1,0 +1,99 @@
+@font-face {
+    font-family: DPComicFont;
+    src: url('dpcomic.ttf') format('truetype');
+  }
+  
+  body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .guts-text,
+  .welcome-text,
+  .btn {
+    color: white;
+    font-family: DPComicFont, sans-serif;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+  }
+  
+  .guts-text {
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .welcome-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .btn-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    transform: translateY(-5px);
+  }
+  
+  .btn-container-2 {
+    display: flex;
+    gap: 20px;
+    margin-top: -15px;
+    color: green;
+    margin-left: -14.5px;
+  }
+  
+  .btn-container-2 .btn {
+    color: gold;
+    text-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
+    cursor: default;
+    pointer-events: none; 
+  }
+  
+  .btn-container-2 .btn:nth-child(2) {
+    color: red; 
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; 
+    cursor: default; 
+    pointer-events: none; 
+  }
+  
+  #click-me {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-family: DPComicFont, sans-serif;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    font-size: 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #click-me:hover {
+    transform: translate(-50%, -50%) scale(1.05); 
+  }
+  
+  .content {
+    display: none;
+  }
+  
