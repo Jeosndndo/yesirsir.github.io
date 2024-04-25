@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'dpcomic';
+    src: url('../Assets/Fonts/cher.ttf') format('truetype');
+}
+
+body {
+    background-image: url('../Assets/Profiles/madara/madaraback.jpg');
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(255, 101, 101);
+    font-family: 'dpcomic', monospace;
+    text-shadow: 0 0 20px rgba(255, 101, 101); 
+    overflow: hidden;
+}
+
+#container {
+    text-align: center;
+    display: none; 
+}
+
+img {
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(255, 101, 101); 
+    box-shadow: 0 0 20px rgba(255, 101, 101); 
+    max-width: 150px; 
+}
+
+#madara-text {
+    font-size: clamp(30px, 10vw, 40px); 
+    margin-bottom: 15px;
+    text-shadow: 0 0 20px rgba(255, 101, 101); 
+}
+
+#footer {
+    font-size: clamp(16px, 10vw, 24px); 
+    margin-bottom: 25px;
+    text-shadow: 0 0 20px rgba(255, 101, 101);
+}
+
+.telegram-icon,
+.discord-icon,
+.globe-icon {
+    font-size: 32px;
+    color: rgb(255, 101, 101); 
+    text-shadow: 0 0 20px rgba(255, 101, 101);
+}
+
+button {
+    background-color: transparent; 
+    border: none;
+    padding: 0; 
+    cursor: pointer;
+    margin: 8px; 
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0); 
+}
+
+button:hover {
+    transform: translateY(-3px); 
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-right: 2px solid rgba(255, 101, 101); }
+}
+
+.typewriter {
+    overflow: hidden; 
+    border-right: 2px solid rgba(255, 101, 101); 
+    white-space: nowrap; 
+    animation: typing 1s steps(40, end), blink-caret 0.75s step-end infinite; 
+}
+
+#click-me {
+    color: rgb(255, 101, 101);
+    font-size: clamp(40px, 10vw, 60px);
+    text-shadow: 0 0 20px rgba(255, 101, 101); 
+    cursor: pointer;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 20px rgba(255, 101, 101); }
+    to { text-shadow: 0 0 30px rgba(255, 101, 101); }
+}
+
+.snowflake {
+    top: 0;
+    left: 0;
+    position: fixed;
+    color: #fff;
+    font-size: 15px;
+    z-index: 9999;
+    pointer-events: none;
+    animation-name: snowflakes-fall, glow;
+    animation-timing-function: linear, ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes snowflakes-fall {
+    100% {
+        transform: translateY(-10vh) rotateZ(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(100vh) rotateZ(360deg);
+        opacity: 1;
+    }
+}
+
+@keyframes glow {
+    100%, 100% {
+        text-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+    100% {
+        text-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+}
+
+* {
+    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto !important;
+}
