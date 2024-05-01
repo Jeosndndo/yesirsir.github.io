@@ -1,1 +1,48 @@
-const _0x529af0=_0x3940;(function(_0x28f672,_0xb5b62f){const _0x35be40=_0x3940,_0x4706cb=_0x28f672();while(!![]){try{const _0x13bacd=parseInt(_0x35be40(0x17a))/0x1+-parseInt(_0x35be40(0x182))/0x2*(parseInt(_0x35be40(0x17e))/0x3)+parseInt(_0x35be40(0x184))/0x4*(parseInt(_0x35be40(0x174))/0x5)+-parseInt(_0x35be40(0x183))/0x6+parseInt(_0x35be40(0x170))/0x7*(-parseInt(_0x35be40(0x179))/0x8)+parseInt(_0x35be40(0x17d))/0x9+-parseInt(_0x35be40(0x18a))/0xa*(parseInt(_0x35be40(0x175))/0xb);if(_0x13bacd===_0xb5b62f)break;else _0x4706cb['push'](_0x4706cb['shift']());}catch(_0x105a4a){_0x4706cb['push'](_0x4706cb['shift']());}}}(_0x1b59,0x9037b));const emojis=['🍓'],screenWidth=window[_0x529af0(0x169)],screenHeight=window[_0x529af0(0x187)];function createOverlay(){const _0x77151f=_0x529af0,_0x2cdc74=document[_0x77151f(0x160)](_0x77151f(0x165));_0x2cdc74['style'][_0x77151f(0x186)]=_0x77151f(0x162),_0x2cdc74[_0x77151f(0x18b)][_0x77151f(0x188)]=0x0,_0x2cdc74[_0x77151f(0x18b)][_0x77151f(0x16a)]=0x0,_0x2cdc74[_0x77151f(0x18b)][_0x77151f(0x17f)]=_0x77151f(0x185),_0x2cdc74[_0x77151f(0x18b)][_0x77151f(0x168)]=_0x77151f(0x185),_0x2cdc74[_0x77151f(0x18b)]['backgroundColor']=_0x77151f(0x16c),_0x2cdc74[_0x77151f(0x18b)]['zIndex']=0x270f,document[_0x77151f(0x178)][_0x77151f(0x161)](_0x2cdc74);}function createEmoji(){const _0x4d9264=_0x529af0,_0x19fde4=document['createElement']('span'),_0x393f8f=emojis[Math['floor'](Math[_0x4d9264(0x173)]()*emojis[_0x4d9264(0x15f)])];_0x19fde4[_0x4d9264(0x177)]=_0x393f8f,_0x19fde4[_0x4d9264(0x18b)]['position']=_0x4d9264(0x162),_0x19fde4[_0x4d9264(0x18b)][_0x4d9264(0x16a)]=Math[_0x4d9264(0x173)]()*screenWidth+'px',_0x19fde4[_0x4d9264(0x18b)][_0x4d9264(0x188)]=Math[_0x4d9264(0x173)]()*screenHeight+'px',_0x19fde4[_0x4d9264(0x18b)][_0x4d9264(0x171)]=0x1,_0x19fde4[_0x4d9264(0x18b)]['fontSize']=_0x4d9264(0x172),_0x19fde4[_0x4d9264(0x18b)][_0x4d9264(0x16f)]=_0x4d9264(0x180),_0x19fde4[_0x4d9264(0x18b)][_0x4d9264(0x17b)]='none',_0x19fde4[_0x4d9264(0x18b)][_0x4d9264(0x166)]=0x2710,document[_0x4d9264(0x178)][_0x4d9264(0x161)](_0x19fde4);const _0x4a5e5b=Math[_0x4d9264(0x173)]()*0x2*Math['PI'],_0x54cd81=Math[_0x4d9264(0x173)]()*0x64+0x32,_0x407e85=Math['cos'](_0x4a5e5b)*_0x54cd81,_0x4ffef5=Math[_0x4d9264(0x167)](_0x4a5e5b)*_0x54cd81;_0x19fde4[_0x4d9264(0x181)]([{'transform':_0x4d9264(0x164),'opacity':0x1},{'transform':_0x4d9264(0x189)+_0x407e85+'px,\x20'+_0x4ffef5+_0x4d9264(0x16d),'opacity':0x0}],{'duration':0x7d0,'easing':_0x4d9264(0x176),'fill':_0x4d9264(0x16b)}),_0x19fde4[_0x4d9264(0x163)](_0x4d9264(0x17c),()=>{const _0x21b5a4=_0x4d9264;document[_0x21b5a4(0x178)][_0x21b5a4(0x16e)](_0x19fde4);});}setInterval(createEmoji,0x64),createOverlay();function _0x3940(_0x5bfab4,_0xea7ccf){const _0x1b5974=_0x1b59();return _0x3940=function(_0x3940e6,_0x23872c){_0x3940e6=_0x3940e6-0x15f;let _0x48f642=_0x1b5974[_0x3940e6];return _0x48f642;},_0x3940(_0x5bfab4,_0xea7ccf);}function _0x1b59(){const _0x4beeb8=['style','length','createElement','appendChild','fixed','addEventListener','translate(0,\x200)','div','zIndex','sin','height','innerWidth','left','forwards','rgba(0,\x200,\x200,\x200.5)','px)','removeChild','pointerEvents','36491LJJMkb','opacity','12px','random','1235rLmdyn','65428AjgoOu','linear','innerHTML','body','16agmhLw','780405gZiDVC','userSelect','animationend','9577836AbpNjf','95145nWNOfq','width','none','animate','62hatNAr','2588622lvrbmQ','13656ChcJkK','100%','position','innerHeight','top','translate(','1130LqQQPh'];_0x1b59=function(){return _0x4beeb8;};return _0x1b59();}
+const emojis = ['🍓'];
+const screenWidth = window.innerWidth;
+const screenHeight = window.innerHeight;
+function createOverlay() {
+  const overlay = document.createElement('div');
+  overlay.style.position = 'fixed';
+  overlay.style.top = 0;
+  overlay.style.left = 0;
+  overlay.style.width = '100%';
+  overlay.style.height = '100%';
+  overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+  overlay.style.zIndex = 9999;
+  document.body.appendChild(overlay);
+}
+function createEmoji() {
+  const emoji = document.createElement('span');
+  const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+  emoji.innerHTML = randomEmoji;
+  emoji.style.position = 'fixed';
+  emoji.style.left = Math.random() * screenWidth + 'px';
+  emoji.style.top = Math.random() * screenHeight + 'px';
+  emoji.style.opacity = 1;
+  emoji.style.fontSize = '12px';
+  emoji.style.pointerEvents = 'none';
+  emoji.style.userSelect = 'none';
+  emoji.style.zIndex = 10000;
+  document.body.appendChild(emoji);
+  const angle = Math.random() * 2 * Math.PI;
+  const distance = Math.random() * 100 + 50;
+  const offsetX = Math.cos(angle) * distance;
+  const offsetY = Math.sin(angle) * distance;
+  emoji.animate(
+    [
+      { transform: `translate(0, 0)`, opacity: 1 },
+      { transform: `translate(${offsetX}px, ${offsetY}px)`, opacity: 0 },
+    ],
+    {
+      duration: 2000,
+      easing: 'linear',
+      fill: 'forwards',
+    }
+  );
+  emoji.addEventListener('animationend', () => {
+    document.body.removeChild(emoji);
+  });
+}
+setInterval(createEmoji, 100);
+createOverlay();
